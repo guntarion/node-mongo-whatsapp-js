@@ -9,7 +9,7 @@ import { errorMiddleware } from './utils/middlewares/error';
 import { extractUser } from "./utils/middlewares/auth"
 import "./data-source"
 
-
+import "./wa-message/wa-message.consumer"
 
 const app = express();
 const port = 3000;
